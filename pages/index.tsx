@@ -3,18 +3,13 @@ import Link from "next/link";
 function HomePage() {
   return (
     <div>
-      <h1>The Home page</h1>
+      <h1>Section Select</h1>
       <ul>
-        <h1>Section03</h1>
         <li>
-          <Link href="/section03/portfolio">Portfolio</Link>
+          <Link href="/section03">Section03</Link>
         </li>
         <li>
-          <Link href="/section03/clients">Clients</Link>
-        </li>
-        <h1>Section04</h1>
-        <li>
-          <Link href="/section04/events">events</Link>
+          <Link href="/section04">Section04</Link>
         </li>
       </ul>
     </div>
