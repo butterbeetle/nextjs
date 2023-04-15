@@ -6,7 +6,7 @@ function ClientProjectsPage() {
   const loadProjectHandler = () => {
     // load data...
     router.push({
-      pathname: "/clients/[id]/[clientprojectid]",
+      pathname: "/section03/clients/[id]/[clientprojectid]",
       query: { id: "max", clientprojectid: "projecta" },
     });
   };

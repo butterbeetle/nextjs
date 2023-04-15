@@ -6,10 +6,10 @@ function HomePage() {
       <h1>The Home page</h1>
       <ul>
         <li>
-          <Link href="/portfolio">Portfolio</Link>
+          <Link href="/section03/portfolio">Portfolio</Link>
         </li>
         <li>
-          <Link href="/clients">Clients</Link>
+          <Link href="/section03/clients">Clients</Link>
         </li>
       </ul>
     </div>
